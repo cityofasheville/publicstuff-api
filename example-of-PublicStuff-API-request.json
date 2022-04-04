@@ -1,0 +1,448 @@
+{
+    "class": [
+        "object",
+        "Request"
+    ],
+    "properties": {
+        "id": 1017116,
+        "name": "Street Sign Needed - Traffic Pattern Issue",
+        "description": "Heading northbound on Flint approaching Magnolia, the Stop sign at this intersection is completely hidden until you are right upon it. There is a park adjacent to this intersection and this is extremely dangerous as there are children present. The trees need to be trimmed so the stop sign is in clear view by approaching vehicles. ",
+        "created_at": "2015-05-05T11:04:36.265Z",
+        "updated_at": "2015-05-05T11:29:59.917Z",
+        "creator_id": 1028251,
+        "permissions": "This is visible to Everyone",
+        "comments_count": 5,
+        "is_current_user_commenter": false,
+        "follows_count": 0,
+        "is_current_user_following": false,
+        "flags_count": 0,
+        "is_current_user_flagger": false,
+        "tags_count": 0,
+        "average_rating": 0.0,
+        "ratings_count": null,
+        "object_fields": [],
+        "object_field_instances": [],
+        "display_id": 1017116,
+        "foreign_ids": [],
+        "status": "COMPLETED",
+        "priority": "MEDIUM",
+        "request_type_id": 23858,
+        "geo_location_id": 162377,
+        "workflow_node_id": 209740,
+        "workflow_graph_id": 168182,
+        "completed_at": "2015-05-05T11:29:59.617Z",
+        "due_at": "2015-05-18T05:00:00.000Z",
+        "due_status": "COMPLETED",
+        "client_id": 819,
+        "display_foreign_id": false,
+        "api_source_id": 10,
+        "is_duplicate": false,
+        "is_self_closure_allowed": true,
+        "has_duplicates": false,
+        "use_permission_matrix": true,
+        "request_type_foreign_api_ids": [],
+        "primary_attachment_id": 204774,
+        "responded_at": null,
+        "expected_responded_at": null,
+        "response_time_s": null,
+        "completion_time_s": null,
+        "expected_response_time_s": null,
+        "expected_completion_time_s": null,
+        "default_due_at": null,
+        "default_expected_responded_at": null,
+        "export_pdf_in_api": false,
+        "attachments_count": 1,
+        "primary_attachment": {
+            "id": 204774,
+            "name": null,
+            "description": null,
+            "created_at": "2015-05-05T11:04:36.464Z",
+            "updated_at": "2015-05-05T11:04:36.462Z",
+            "creator_id": 1028251,
+            "permissions": "This is visible to Everyone",
+            "display_id": 204774,
+            "foreign_ids": [],
+            "attachable_type": "Request",
+            "attachable_id": 1017116,
+            "file_ref_id": 96682,
+            "file_ref": {
+                "id": 96682,
+                "name": "itemImage_1",
+                "description": null,
+                "created_at": "2015-05-05T11:04:33.672Z",
+                "updated_at": "2015-10-08T02:21:52.348Z",
+                "creator_id": null,
+                "permissions": "This is visible to Everyone",
+                "url": "https://d17aqltn7cihbm.cloudfront.net/uploads/dc80676c253db1aa93fe343b7c1f19bd",
+                "processing": false,
+                "content_type": "image/jpeg",
+                "storage_key": "dc80676c253db1aa93fe343b7c1f19bd",
+                "extension": "jpg",
+                "meta": null,
+                "versions": {
+                    "small": "https://d17aqltn7cihbm.cloudfront.net/uploads/small_dc80676c253db1aa93fe343b7c1f19bd",
+                    "medium": "https://d17aqltn7cihbm.cloudfront.net/uploads/medium_dc80676c253db1aa93fe343b7c1f19bd",
+                    "large": "https://d17aqltn7cihbm.cloudfront.net/uploads/large_dc80676c253db1aa93fe343b7c1f19bd"
+                }
+            }
+        },
+        "contact_info": {
+            "name": "Kenny Hancock",
+            "full_name": "Kenny Hancock",
+            "first_name": "Kenny",
+            "last_name": "Hancock",
+            "username": "28803",
+            "phone": "18288080022",
+            "email": "kenhancock@me.com",
+            "user_id": 1028251
+        },
+        "geo_location": {
+            "id": 162377,
+            "name": "204–218 Flint St,Asheville, NC 28801",
+            "description": null,
+            "created_at": "2015-05-05T11:04:36.220Z",
+            "updated_at": "2015-05-05T11:04:36.184Z",
+            "creator_id": null,
+            "permissions": "This is visible to Everyone",
+            "geo_data_id": 169919,
+            "postal_address_id": 160864,
+            "accuracy_m": 10,
+            "latitude": 35.603034,
+            "longitude": -82.560771,
+            "geo_location": {},
+            "postal_address": {
+                "id": 160864,
+                "name": "204–218 Flint St,Asheville, NC 28801",
+                "description": "204–218 Flint St,Asheville, NC 28801",
+                "created_at": "2015-05-05T11:04:36.204Z",
+                "updated_at": "2015-05-05T11:29:59.920Z",
+                "permissions": "This is visible to Everyone",
+                "source": "LEGACY",
+                "street_number": "204–218",
+                "street_number_unit": null,
+                "street_name": "Flint St",
+                "street_type": null,
+                "street_direction": null,
+                "postal_code": "28801",
+                "region_id": 683,
+                "geo_data_id": null,
+                "intersection": null,
+                "formatted_address": "204–218   Flint St"
+            }
+        },
+        "request_type_name": "Traffic Concern (Auto, Bike, or Pedestrian)",
+        "creator_display_name": "Kenny Hancock",
+        "api_source_name": "iOS"
+    },
+    "entities": [
+        {
+            "class": [
+                "object",
+                "User",
+                "creator"
+            ],
+            "href": "/app/users/1028251",
+            "rel": "/rels/request-creator"
+        },
+        {
+            "class": [
+                "collection",
+                "JournalEntry",
+                "journal_entries"
+            ],
+            "href": "/app/requests/1017116/change_logs",
+            "rel": "/rels/request-journal_entries"
+        },
+        {
+            "class": [
+                "object",
+                "Uuid",
+                "uuid"
+            ],
+            "href": "/app/uuids/b29a1b5983fc78dd3876973e1910aed9",
+            "rel": "/rels/request-uuid"
+        },
+        {
+            "class": [
+                "collection",
+                "Attachment",
+                "attachments"
+            ],
+            "href": "/app/requests/1017116/attachments",
+            "rel": "/rels/request-attachments"
+        },
+        {
+            "class": [
+                "object",
+                "Client",
+                "client"
+            ],
+            "href": "/app/clients/819",
+            "rel": "/rels/request-client"
+        },
+        {
+            "class": [
+                "collection",
+                "Comment",
+                "comments"
+            ],
+            "href": "/app/requests/1017116/comments",
+            "rel": "/rels/request-comments"
+        },
+        {
+            "class": [
+                "collection",
+                "Rating",
+                "ratings"
+            ],
+            "href": "/app/requests/1017116/ratings",
+            "rel": "/rels/request-ratings"
+        },
+        {
+            "class": [
+                "collection",
+                "Flag",
+                "flags"
+            ],
+            "href": "/app/requests/1017116/flags",
+            "rel": "/rels/request-flags"
+        },
+        {
+            "class": [
+                "collection",
+                "Follow",
+                "follows"
+            ],
+            "href": "/app/requests/1017116/follows",
+            "rel": "/rels/request-follows"
+        },
+        {
+            "class": [
+                "collection",
+                "ForeignAssociation",
+                "foreign_associations"
+            ],
+            "href": "/app/requests/1017116/foreign_associations",
+            "rel": "/rels/request-foreign_associations"
+        },
+        {
+            "class": [
+                "collection",
+                "Tag",
+                "tags"
+            ],
+            "href": "/app/requests/1017116/tags",
+            "rel": "/rels/request-tags"
+        },
+        {
+            "class": [
+                "object",
+                "User",
+                "contact_info_user"
+            ],
+            "href": "/app/users/1028251",
+            "rel": "/rels/request-contact_info_user"
+        },
+        {
+            "class": [
+                "object",
+                "User",
+                "reporter"
+            ],
+            "href": "/app/users/1028251",
+            "rel": "/rels/request-reporter"
+        },
+        {
+            "class": [
+                "object",
+                "RequestType",
+                "request_type"
+            ],
+            "href": "/app/request_types/23858",
+            "rel": "/rels/request-request_type"
+        },
+        {
+            "class": [
+                "object",
+                "GeoLocation",
+                "geo_location"
+            ],
+            "href": "/app/geo_locations/162377",
+            "rel": "/rels/request-geo_location"
+        },
+        {
+            "class": [
+                "object",
+                "ApiKey",
+                "api_source"
+            ],
+            "href": "/app/api_keys/10",
+            "rel": "/rels/request-api_source"
+        },
+        {
+            "class": [
+                "object",
+                "WorkflowGraph",
+                "workflow_graph"
+            ],
+            "href": "/app/workflow_graphs/168182",
+            "rel": "/rels/request-workflow_graph"
+        },
+        {
+            "class": [
+                "object",
+                "WorkflowNode",
+                "workflow_node"
+            ],
+            "href": "/app/workflow_nodes/209740",
+            "rel": "/rels/request-workflow_node"
+        },
+        {
+            "class": [
+                "collection",
+                "Asset",
+                "assets"
+            ],
+            "href": "/app/requests/1017116/assets",
+            "rel": "/rels/request-assets"
+        },
+        {
+            "class": [
+                "object",
+                "PostalAddress",
+                "postal_address"
+            ],
+            "href": "/app/postal_addresses/160864",
+            "rel": "/rels/request-postal_address"
+        }
+    ],
+    "actions": [
+        {
+            "name": "make-public",
+            "title": "Make Public",
+            "method": "PATCH",
+            "href": "/app/requests/1017116",
+            "type": "application/x-www-form-urlencoded",
+            "fields": {
+                "name": "make_public",
+                "type": "checkbox"
+            }
+        },
+        {
+            "name": "make-internal",
+            "title": "Make Internal",
+            "method": "PATCH",
+            "href": "/app/requests/1017116",
+            "type": "application/x-www-form-urlencoded",
+            "fields": {
+                "name": "make_internal",
+                "type": "checkbox"
+            }
+        },
+        {
+            "name": "make-sensitive",
+            "title": "Make Sensitive",
+            "method": "PATCH",
+            "href": "/app/requests/1017116",
+            "type": "application/x-www-form-urlencoded",
+            "fields": {
+                "name": "make_sensitive",
+                "type": "number"
+            }
+        },
+        {
+            "name": "follow",
+            "title": "Follow",
+            "method": "POST",
+            "href": "/app/requests/1017116/follows",
+            "type": "application/x-www-form-urlencoded",
+            "fields": {
+                "follow": [
+                    {
+                        "name": "follower_id",
+                        "type": "number"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "add-comment",
+            "title": "Add Comment",
+            "method": "POST",
+            "href": "/app/requests/1017116/comments",
+            "type": "application/x-www-form-urlencoded",
+            "fields": {
+                "comment": [
+                    {
+                        "name": "user_id",
+                        "type": "number"
+                    },
+                    {
+                        "name": "text",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "add-attachment",
+            "title": "Add Attachment",
+            "method": "POST",
+            "href": "/app/requests/1017116/attachments",
+            "type": "application/x-www-form-urlencoded",
+            "fields": {
+                "attachment": [
+                    {
+                        "name": "file_id",
+                        "type": "number"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "mark-duplicate",
+            "title": "Mark Duplicate",
+            "method": "PATCH",
+            "href": "/app/requests/1017116",
+            "type": "application/x-www-form-urlencoded",
+            "fields": {
+                "request": [
+                    {
+                        "name": "mark_duplicate",
+                        "type": "checkbox"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "change-status",
+            "title": "Change Status",
+            "method": "PATCH",
+            "href": "/app/requests/1017116",
+            "type": "application/x-www-form-urlencoded",
+            "fields": {
+                "request": [
+                    {
+                        "name": "status",
+                        "type": "text",
+                        "options": [
+                            "SUBMITTED",
+                            "RECEIVED",
+                            "IN_PROGRESS",
+                            "COMPLETED",
+                            "OTHER"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "links": [
+        {
+            "rel": [
+                "self"
+            ],
+            "href": "/app/requests/1017116"
+        }
+    ]
+}
