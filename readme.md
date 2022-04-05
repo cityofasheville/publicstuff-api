@@ -7,25 +7,26 @@ First version just runs once and pulls everything.
 
 Field wishlist:
 - "properties"	
-    "id"	
-    "name"	
-    "description"	
-    "created_at"	
-    "permissions"	
-    "status"	
-    "priority"	
-    "is_duplicate"	FALSE 
-    "responded_at"	
-    "geo_location_id"	cod
-    "primary_attachment"	
-    "request_type_name"	
+    - "id"	
+    - "name"	
+    - "description"	
+    - "created_at"	
+    - "permissions"	
+    - "status"	
+    - "priority"	
+    - "is_duplicate"	FALSE 
+    - "responded_at"	
+    - "geo_location_id"	cod
+    - "primary_attachment"	
+    - "request_type_name"	
 
-- "geo_location_id"
-    "latitude"
-    "longitude"
-    "name"
 
-- "primary_attachment"
-    "file_ref"
-    "url"
+    - "geo_location"
+        - "latitude"
+        - "longitude"
+        - "name"
+
+    - "primary_attachment"
+        - "file_ref"
+            - "url"
 

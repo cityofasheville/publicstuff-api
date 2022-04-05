@@ -9,7 +9,7 @@ require("dotenv").config()
 
 async function go(){
     try{
-        let api_url_base = 'https://api.publicstuff.com/app/requests?limit=500'
+        let api_url_base = 'https://api.publicstuff.com/app/requests?limit=500&filters[client_id]=819'
         let api_url = api_url_base
         let api_key = process.env.api_key
         let next_page = 0
