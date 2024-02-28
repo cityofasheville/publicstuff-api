@@ -1,8 +1,4 @@
-// https://github.com/node-fetch/node-fetch/blob/HEAD/docs/v3-UPGRADE-GUIDE.md
-// import fetch from 'node-fetch';
-// import 'dotenv/config'
-// import * as pg from 'pg'
-// const { Client } = pg
+// This version fetches data from the publicstuff API and write it to a database;
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 const { Client } = require("pg")
 require("dotenv").config()

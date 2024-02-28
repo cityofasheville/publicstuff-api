@@ -3,6 +3,10 @@
 Calls PublicStuff API:
 https://api.publicstuff.com/api/index.html?url=/api/api-docs.json
 
+### Filter just Asheville data
+&filters[client_id]=819
+
+
 First version just runs once and pulls everything.
 
 Field wishlist:
